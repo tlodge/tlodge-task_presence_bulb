@@ -35,7 +35,9 @@
         "y": 339,
         "wires": [
             [
-                "ede8e55d.c20918"
+                "ede8e55d.c20918",
+                "c9d25ed0.b3f87",
+                "515c0530.cf036c"
             ]
         ]
     },
@@ -49,5 +51,32 @@
         "x": 517,
         "y": 338,
         "wires": []
+    },
+    {
+        "id": "c9d25ed0.b3f87",
+        "type": "plugout",
+        "z": "84150661.a4d958",
+        "name": "",
+        "subtype": "TP-SetPowerState",
+        "value": "on",
+        "x": 507.5,
+        "y": 417,
+        "wires": []
+    },
+    {
+        "id": "515c0530.cf036c",
+        "type": "dbfunction",
+        "z": "84150661.a4d958",
+        "name": "",
+        "func": "console.log(msg)",
+        "outputs": 1,
+        "inputtypedef": "",
+        "outputtypedef": "",
+        "noerr": 0,
+        "x": 503,
+        "y": 254,
+        "wires": [
+            []
+        ]
     }
 ]
