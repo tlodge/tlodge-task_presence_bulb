@@ -23,7 +23,8 @@
             "required": false,
             "datastores": [
                 "6a5dfedc.d7ab8",
-                "ede8e55d.c20918"
+                "ede8e55d.c20918",
+                "c9d25ed0.b3f87"
             ],
             "benefits": "testing"
         }
@@ -42,6 +43,13 @@
             "required": true,
             "name": "bulbsout",
             "clientid": "ede8e55d.c20918",
+            "granularities": []
+        },
+        {
+            "type": "TP-SetPowerState",
+            "required": true,
+            "name": "plugout",
+            "clientid": "c9d25ed0.b3f87",
             "granularities": []
         }
     ],
