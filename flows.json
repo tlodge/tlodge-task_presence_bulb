@@ -68,7 +68,7 @@
         "type": "dbfunction",
         "z": "84150661.a4d958",
         "name": "",
-        "func": "console.log(msg)",
+        "func": "console.log(\"function - recv\", msg);",
         "outputs": 1,
         "inputtypedef": "",
         "outputtypedef": "",
