@@ -1,0 +1,52 @@
+{
+    "manifest-version": 1,
+    "name": "tlodge-task_presence_bulb",
+    "version": "0.1.0",
+    "description": "app to turn on a bulb when presence is detected",
+    "author": "tlodge",
+    "licence": "MIT",
+    "databox-type": "app",
+    "tags": [
+        "bulb",
+        " presence"
+    ],
+    "homepage": "https://github.com/tlodge/tlodge-task_presence_bulb",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tlodge/tlodge-task_presence_bulb.git"
+    },
+    "packages": [
+        {
+            "id": "84150661.a4d958",
+            "name": "new package",
+            "purpose": "to test use of presence and bulb",
+            "required": false,
+            "datastores": [
+                "6a5dfedc.d7ab8",
+                "ede8e55d.c20918"
+            ],
+            "benefits": "testing"
+        }
+    ],
+    "allowed-combinations": [],
+    "datasources": [
+        {
+            "type": "hue-ZLLPresence",
+            "required": true,
+            "name": "bulbsin",
+            "clientid": "6a5dfedc.d7ab8",
+            "granularities": []
+        },
+        {
+            "type": "set-bulb-on",
+            "required": true,
+            "name": "bulbsout",
+            "clientid": "ede8e55d.c20918",
+            "granularities": []
+        }
+    ],
+    "network-permissions": [],
+    "resource-requirements": {},
+    "volumes": [],
+    "export-whitelist": []
+}
