@@ -10,8 +10,8 @@
         "z": "84150661.a4d958",
         "name": "",
         "subtype": "hue-ZLLPresence",
-        "x": 168.5,
-        "y": 327,
+        "x": 150,
+        "y": 341,
         "wires": [
             [
                 "a998aa60.7b6998"
@@ -26,16 +26,17 @@
         "op2": "off",
         "op1type": "str",
         "op2type": "str",
-        "duration": "30",
+        "duration": "3",
         "extend": "false",
         "units": "s",
         "reset": "",
         "name": "",
-        "x": 312.5,
-        "y": 323,
+        "x": 330,
+        "y": 339,
         "wires": [
             [
-                "ede8e55d.c20918"
+                "ede8e55d.c20918",
+                "8e3092f5.4ebcd"
             ]
         ]
     },
@@ -46,8 +47,24 @@
         "name": "",
         "subtype": "set-bulb-on",
         "value": "",
-        "x": 441.5,
-        "y": 318,
+        "x": 459,
+        "y": 448,
         "wires": []
+    },
+    {
+        "id": "8e3092f5.4ebcd",
+        "type": "dbfunction",
+        "z": "84150661.a4d958",
+        "name": "",
+        "func": "console.log(\"fn seen msg\", msg)",
+        "outputs": 1,
+        "inputtypedef": "",
+        "outputtypedef": "",
+        "noerr": 0,
+        "x": 451,
+        "y": 228,
+        "wires": [
+            []
+        ]
     }
 ]
