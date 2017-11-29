@@ -1,0 +1,53 @@
+[
+    {
+        "id": "84150661.a4d958",
+        "label": "new package",
+        "type": "tab"
+    },
+    {
+        "id": "6a5dfedc.d7ab8",
+        "type": "bulbsin",
+        "z": "84150661.a4d958",
+        "name": "",
+        "subtype": "hue-ZLLPresence",
+        "x": 168.5,
+        "y": 327,
+        "wires": [
+            [
+                "a998aa60.7b6998"
+            ]
+        ]
+    },
+    {
+        "id": "a998aa60.7b6998",
+        "type": "trigger",
+        "z": "84150661.a4d958",
+        "op1": "on",
+        "op2": "off",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "30",
+        "extend": "false",
+        "units": "s",
+        "reset": "",
+        "name": "",
+        "x": 312.5,
+        "y": 323,
+        "wires": [
+            [
+                "ede8e55d.c20918"
+            ]
+        ]
+    },
+    {
+        "id": "ede8e55d.c20918",
+        "type": "bulbsout",
+        "z": "84150661.a4d958",
+        "name": "",
+        "subtype": "set-bulb-on",
+        "value": "",
+        "x": 441.5,
+        "y": 318,
+        "wires": []
+    }
+]
